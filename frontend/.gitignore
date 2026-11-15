@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Next.js
+.next/
+out/
+build/
+.vercel/
+coverage/
+
+# Package managers
+.pnp.*
+.yarn/*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Certificates
+*.pem
