@@ -41,7 +41,10 @@ interface SpeechWindow extends Window {
 }
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  (process.env.NODE_ENV === "production"
+    ? "/api"
+    : "http://127.0.0.1:8000");
 
 const suggestions = [
   "₹1000 க்குள் Cooker வேண்டும்",

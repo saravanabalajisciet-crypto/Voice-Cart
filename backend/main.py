@@ -27,6 +27,7 @@ class ChatRequest(BaseModel):
 
 
 @app.get("/")
+@app.get("/api")
 def home():
     return {
         "message": "வணக்கம்! VoiceCart AI தயாராக உள்ளது."
@@ -34,6 +35,7 @@ def home():
 
 
 @app.get("/health")
+@app.get("/api/health")
 def health():
     return {
         "status": "healthy",
@@ -43,6 +45,7 @@ def health():
 
 # PRODUCT CATALOGUE SEARCH
 @app.get("/products")
+@app.get("/api/products")
 def get_products(category: str, max_price: int = None):
     products = search_products(category, max_price)
 
@@ -54,6 +57,7 @@ def get_products(category: str, max_price: int = None):
 
 # SESSION-BASED AI CHAT
 @app.post("/chat")
+@app.post("/api/chat")
 def chat(request: ChatRequest):
     try:
         reply = chat_with_agent(
