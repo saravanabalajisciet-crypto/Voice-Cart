@@ -1,12 +1,12 @@
- VoiceCart AI
+# VoiceCart AI
 
-Shopping should feel like a conversation, not a search.
+### Shopping should feel like a conversation, not a search.
 
-Built for Build with Gemini Hackathon — powered by Google Gemini API
+Built for **Build with Gemini Hackathon** — powered by **Google Gemini API**
 
 ---
 
- The Problem
+## The Problem
 
 Online shopping has become convenient, but it is not equally accessible to everyone.
 
@@ -19,13 +19,13 @@ Many users still struggle with:
 
 For Tamil-speaking users, the experience can be even less natural when shopping platforms primarily expect typed English queries.
 
-Shopping should not require users to learn how to search. They should simply be able to say what they need.**
+**Shopping should not require users to learn how to search. They should simply be able to say what they need.**
 
 ---
 
- The Solution
+## The Solution
 
-VoiceCart AI is a Tamil-first, voice-enabled conversational shopping assistant that makes product discovery simple through natural conversation.
+**VoiceCart AI** is a Tamil-first, voice-enabled conversational shopping assistant that makes product discovery simple through natural conversation.
 
 Instead of navigating multiple pages and filters, users can speak or type what they need in Tamil, Tanglish, or English.
 
@@ -35,16 +35,16 @@ VoiceCart understands the request, discovers relevant products from its catalogu
 
 ---
 
- ✨ What VoiceCart AI Offers
+## ✨ What VoiceCart AI Offers
 
-🎙️ Tamil-First Voice Shopping
+### 🎙️ Tamil-First Voice Shopping
 
 - Speak naturally instead of typing long search queries.
 - Tamil speech recognition using the browser's speech-recognition capability.
 - Supports Tamil, Tanglish, and English conversations.
 - Converts spoken requests into conversational shopping interactions.
 
- 🤖 Gemini-Powered Shopping Agent
+### 🤖 Gemini-Powered Shopping Agent
 
 - Understands natural-language shopping requests.
 - Handles product preferences and budget constraints.
@@ -52,32 +52,32 @@ VoiceCart understands the request, discovers relevant products from its catalogu
 - Uses Gemini function calling to trigger product catalogue searches.
 - Responds using the results returned by the product search function.
 
- 🛍️ Intelligent Product Discovery
+### 🛍️ Intelligent Product Discovery
 
 - Searches the available product catalogue.
 - Supports category-based and maximum-price filtering.
 - Recommends matching products with their names and prices.
 - Helps users compare suitable options before selecting a product.
 
- 🛒 Interactive Shopping Cart
+### 🛒 Interactive Shopping Cart
 
 - Add selected products to the cart.
 - View selected items and prices.
 - Manage the shopping selection through the frontend interface.
 
-💳 Guided Demo Checkout
+### 💳 Guided Demo Checkout
 
 - Provides a guided checkout experience.
 - Demonstrates the order-confirmation flow.
 - Helps showcase how a conversational shopping journey can work from discovery to checkout.
 
-Note: Checkout and order confirmation are demonstration features. VoiceCart does not currently process real payments, create fulfilment orders, or arrange deliveries.
+**Note:** Checkout and order confirmation are demonstration features. VoiceCart does not currently process real payments, create fulfilment orders, or arrange deliveries.
 
 ---
 
- 🔥 What Makes VoiceCart Different?
+## 🔥 What Makes VoiceCart Different?
 
-1. Conversation-First Shopping
+### 1. Conversation-First Shopping
 
 Traditional shopping starts with a search box. VoiceCart starts with a conversation.
 
@@ -121,7 +121,7 @@ The user can also explore other products, add items to the cart, and try the dem
 
 ---
 
- 🧠 How Gemini Powers VoiceCart
+## 🧠 How Gemini Powers VoiceCart
 
 Gemini is the conversational intelligence layer of VoiceCart.
 
@@ -346,20 +346,21 @@ The project demonstrates the use of Google Gemini API in a practical, user-facin
 
 ---
 
- 🚀 Live Demo
+## 🚀 Live Demo
 
-Coming soon — deployment in progress.
+**Coming soon — deployment in progress.**
 
 The live frontend and backend URLs will be added here after deployment.
 
- 💻 Source Code
+## 💻 Source Code
 
 GitHub Repository:
 
 https://github.com/saravanabalajisciet-crypto/Voice-Cart
 
+---
 
- ❤️ Built With
+## ❤️ Built With
 
 - Google Gemini API
 - Next.js
